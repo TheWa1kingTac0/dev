@@ -8,17 +8,17 @@
     <title>The Mountain</title>
     <meta name="author" content="Pierce Workman" />
     <script type="text/javascript">
-      var password = "tacostudio";
+      
       alert("To see dev content, you must login.");
       var x = prompt("Login to MDT "," ");
-      if (x.toLowerCase() == password) {
-      alert("Welcome to TACOSOFT!\nThis update from MDT adds bug fixes and\nmakes the ui easier to use.\n\nEnjoy!");
-    }
+      if (x == "tacostudio") {
+        alert("Welcome to TACOSOFT!\nThis update from MDT adds bug fixes and\nmakes the ui easier to use.\n\nEnjoy!");
+      }
       else {
         alert("Incorrect password");
         document.location = "../../../dev/index.html";
         
-    }
+      }
   </script>
     
   </head>
