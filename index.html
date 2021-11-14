@@ -4,6 +4,11 @@
     <title>MDT Dev Branch</title>
   </head>
 <body style="background-color:black;">
+  <script>
+    function launchGame() {
+      var gameWindow = window.open("web/index.html","","width=480,height=432");
+    }
+  </script>
   
   <h1 style="color:white;text-align:center;font-size:300%;">Mountain Dev Branch</h1>
   <p style="color:white;">Welcome the The Mountain Dev Branch</p>
@@ -11,6 +16,7 @@
   <iframe frameborder="0" src="https://itch.io/embed/1095972?bg_color=071821&amp;fg_color=e0f8cf&amp;link_color=86c06c&amp;border_color=528a72" width="552" height="167"><a href="https://thewalkingtaco.itch.io/the-mountain">The Mountain (GB Studio Game) by thewalkingtaco</a></iframe>
   
   <p style="color:white;">IMPORTANT UPDATE: I have decided to use the backstory for The Mountain as the content for the game instead. DON'T WORRY! The content for this game will NOT be scrapped. <br>It will hopefully be rereleased in the future as a sequel. Until I develop a stable build, there will not be a demo release. <br>But developers can play the prototype by clicking the Launch Game button and entering the developer passkey.</p>
-  <p style="color:white;"><br><br>The Mountain Development Team is working on an update for the game. <br>Please sit tight and wait until it is done. <br>The updated game will be ready to play when the update is finished.</p>
+  <br><br>
+  <button onclick="launchGame()">Launch Game</button>
   </body>
 </html>
