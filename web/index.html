@@ -1,38 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>The Mountain</title>
-    <meta name="author" content="Pierce" />
-    <style type="text/css"> body { background-color:#undefined; }</style>
-    
-  </head>
-  <script>
-    alert("This is the TACOSOFT development branch. The content here may be unstable and have bugs. Press OK to continue.");
-    
-  </script>
-  <body>
-    <div id="game">
-      <canvas id="mainCanvas" width="256" height="224">No Canvas Support</canvas>
-    </div>
-    <div id="controller">
-      <div id="controller_dpad">
-        <div id="controller_left"></div>
-        <div id="controller_right"></div>
-        <div id="controller_up"></div>
-        <div id="controller_down"></div>
-      </div>
-      <div id="controller_select" class="capsuleBtn">Shift</div>
-      <div id="controller_start" class="capsuleBtn">Enter</div>
-      <div id="controller_b" class="roundBtn">X</div>
-      <div id="controller_a" class="roundBtn">Z</div>
-    </div>      
-    <script>
-      const customControls = {}
-    </script>
-    <script src="binjgb.js"></script>
-    <script src="js/script.js"></script>
+<head><title>?</title></head>
+<body style="background-color:black;">
+    <p style="color:white;">You see an old computer.<br>The T, A, C, and O keys are missing.<br>The screen is dusty.<br>A disk is stuck in the disk drive.<br>Do you still want to turn on the computer?<br>If so, then press the power button.<br></p>
+    <img src="./power.png" alt="Power Button" style="width:100px;height:100px;" onclick="turnOnComputer()">
+
+
+
+<script>
+    function turnOnComputer() {
+        var gameWindow = window.open("game/index.html","","width=480,height=432");
+    }
+</script>
+
 </body>
